@@ -1,0 +1,49 @@
+body{
+    color:white;
+    background: rgb(166, 184, 255);
+    margin: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header {
+    border-bottom: solid 2px rgb(94, 129, 255);
+    padding: 2px;
+    font-size: 32px;
+    color: rgb(77, 95, 255);
+}
+
+.chamada {
+    background: rgb(83, 146, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+  }
+
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
